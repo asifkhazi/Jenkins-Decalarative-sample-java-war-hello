@@ -3,8 +3,7 @@ pipeline {
     stages {
       stage ('SCM checkout') {
         steps {
-          git branch: 'master', url: 'https://github.com/asifkhazi/Jenkins-Decalarative-sample-java-war-hello
-.git'
+          git branch: 'master', url: 'https://github.com/asifkhazi/Jenkins-Decalarative-sample-java-war-hello.git'
         }
       }
       stage ('Build') {
